@@ -1,0 +1,118 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
+}
+/* banner-area */
+.banner-area{
+    margin-top: 60px;
+    background-color: #FEEAE9;
+    border-radius: 5px;
+}
+.content-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area h1{
+    font-weight: 700;
+    color: #1F1F1F;
+    font-size: 56px;
+}
+.content-area h2{
+    font-weight: 600;
+    color: #FF136F;
+    font-size: 41px;
+}
+.content-area p{
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    background-color: #FF589B;
+    border-radius: 5px;
+}
+.btn > a{
+    text-decoration: none;  
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    
+}
+.btn .fa-arrow-right{
+    padding-left: 10px;
+}
+.categories{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.categories{
+    padding-bottom: 40px;
+}
+.heading1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.watch-area, .bag-area, .shores-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.watch-area{
+background-color: #FF9C35;
+}
+.bag-area{
+background-color: #FF589B;
+}
+.shores-area{
+background-color: #4289FF;
+}
+.text-area h1{
+    font-size: 36px;
+    color: white;
+    padding-left: 46px;
+    padding-top: 16px;
+}
+.img-area{
+    width: 68px;
+    height: 90px;
+    margin-right: 24px;
+    padding-top: 15px;
+}
+.img-area img{
+   width: 100%;
+}
+/* subscribe section area */
+.subscribe{
+    background-color: white;
+    padding: 50px;
+    margin-top: 40px;
+   
+}
+.subscribe-text{
+    height: 300px;
+}
+.subscribe h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1F1F1F;
+}
+.subscribe p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+.subscribe input{
+    border: 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+

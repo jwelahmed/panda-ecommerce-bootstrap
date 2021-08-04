@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/33400a72ea.js" crossorigin="anonymous"></script>
     <!-- bootstrap css  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom css -->
@@ -14,11 +16,279 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="bg-primary text-white text-center p-3 m-5">
-            Now, we starting bootstrap series.
-        </h1>
-    </div>
+    <!-- header area -->
+    <header style="background-color: white;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo image"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- slider area -->
+        <section class="container">
+            <div class="banner-area">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row content-area p-5">
+                                        <div class="col-lg-7">
+                                            <h1>Mi LED TV 4A PRO 32</h1>
+                                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                                Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                                consequat sunt nostrud amet.</p>
+                                            <h2>$1289</h2>
+                                            <button class="btn"><a href="#">BUY NOW<i
+                                                        class="fas fa-arrow-right"></i></a></button>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img src="images/tv.png" class="d-block w-100" alt="tv images">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row content-area p-5">
+                                        <div class="col-lg-7">
+                                            <h1>Mi LED TV 4A PRO 32</h1>
+                                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                                Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                                consequat sunt nostrud amet.</p>
+                                            <h2>$1289</h2>
+                                            <button class="btn"><a href="#">BUY NOW<i
+                                                        class="fas fa-arrow-right"></i></a></button>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img src="images/headphone.png" class="d-block w-100" alt="tv images">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row content-area p-5">
+                                        <div class="col-lg-7">
+                                            <h1>Mi LED TV 4A PRO 32</h1>
+                                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                                Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                                consequat sunt nostrud amet.</p>
+                                            <h2>$1289</h2>
+                                            <button class="btn"><a href="#">BUY NOW<i
+                                                        class="fas fa-arrow-right"></i></a></button>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img src="images/xbox.png" class="d-block w-100" alt="tv images">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider area -->
+
+        <!-- categories area -->
+        <section class="container">
+            <div class="categories">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="heading1">Categories</h1>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="watch-area">
+                                    <div class="text-area">
+                                        <h1>Watch</h1>
+                                    </div>
+                                    <div class="img-area">
+                                        <img src="images/watch.png" alt="watch image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="bag-area">
+                                    <div class="text-area">
+                                        <h1>Bag</h1>
+                                    </div>
+                                    <div class="img-area">
+                                        <img src="images/bag.png" alt="bag image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="shores-area">
+                                    <div class="text-area">
+                                        <h1>Shoes</h1>
+                                    </div>
+                                    <div class="img-area">
+                                        <img src="images/shoes.png" alt="shoes image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- categories area -->
+    </header>
+    <!-- header area -->
+
+
+
+    <!-- shoes section area -->
+    <section class="container" id="shoes">
+        <div class="shoes-area">
+            <h1 class="heading1">Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$1289</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$799</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$699</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shoes section area -->
+
+    <!-- backpack section area -->
+    <section class="container" id="backpack">
+        <div class="backpack-area">
+            <h1 class="heading1 mt-5">Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$1289</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$799</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <img src="images/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h5 class="card-title">$699</h5>
+                        </div>
+                        <div class="m-3">
+                            <button type="button" class="btn btn-primary border-0">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- backpack section area -->
+
+    <!-- subscribe section area -->
+    <section class="subscribe" id="subscribe">
+        <div style="background-color: #FFF2F1;"
+            class="container subscribe-text d-flex justify-content-center align-items-center rounded m-3">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <input type="email" name="subscribe" id="subscribe" placeholder="Enter your mail">
+                <div class="btn btn btn-warning">Send</div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe section area -->
+    <footer style="background-color: white;" class="text-center">
+        <div class="container">
+            <p><small>&copy2020. Panda Commerce. All Rights Reserved</small></p>
+        </div>
+    </footer>
     <!-- bootstrap js  -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
